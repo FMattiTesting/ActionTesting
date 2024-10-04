@@ -24,9 +24,9 @@
 %%   
 %%   \ifdefined\pdftexversion\else  % non-pdftex case.
 %%     \usepackage{fontspec}
-%%     \setmainfont{DejaVuSerif.ttf}[Path=\detokenize{/home/matti/Documents/projects/Rand-TRACE/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/}]
-%%     \setsansfont{DejaVuSans.ttf}[Path=\detokenize{/home/matti/Documents/projects/Rand-TRACE/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/}]
-%%     \setmonofont{DejaVuSansMono.ttf}[Path=\detokenize{/home/matti/Documents/projects/Rand-TRACE/.venv/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/}]
+%%     \setmainfont{DejaVuSerif.ttf}[Path=\detokenize{/opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/}]
+%%     \setsansfont{DejaVuSans.ttf}[Path=\detokenize{/opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/}]
+%%     \setmonofont{DejaVuSansMono.ttf}[Path=\detokenize{/opt/hostedtoolcache/Python/3.12.6/x64/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/}]
 %%   \fi
 %%   \makeatletter\@ifpackageloaded{underscore}{}{\usepackage[strings]{underscore}}\makeatother
 %%
@@ -2779,6 +2779,44 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.721913in}{0.549073in}}{\pgfqpoint{4.518250in}{2.310000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\pgfsetlinewidth{1.505625pt}%
+\definecolor{currentstroke}{rgb}{0.478431,0.478431,0.478431}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetstrokeopacity{0.500000}%
+\pgfsetdash{{5.550000pt}{2.400000pt}}{0.000000pt}%
+\pgfpathmoveto{\pgfqpoint{0.829491in}{2.205966in}}%
+\pgfpathlineto{\pgfqpoint{1.544389in}{2.077164in}}%
+\pgfpathlineto{\pgfqpoint{2.286246in}{1.943506in}}%
+\pgfpathlineto{\pgfqpoint{3.003594in}{1.814263in}}%
+\pgfpathlineto{\pgfqpoint{3.708276in}{1.687302in}}%
+\pgfpathlineto{\pgfqpoint{4.421593in}{1.558785in}}%
+\pgfpathlineto{\pgfqpoint{5.132586in}{1.430687in}}%
+\pgfusepath{stroke}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.721913in}{0.549073in}}{\pgfqpoint{4.518250in}{2.310000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\pgfsetlinewidth{1.505625pt}%
+\definecolor{currentstroke}{rgb}{0.478431,0.478431,0.478431}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetstrokeopacity{0.500000}%
+\pgfsetdash{{5.550000pt}{2.400000pt}}{0.000000pt}%
+\pgfpathmoveto{\pgfqpoint{0.829491in}{2.397070in}}%
+\pgfpathlineto{\pgfqpoint{1.544389in}{2.332670in}}%
+\pgfpathlineto{\pgfqpoint{2.286246in}{2.265840in}}%
+\pgfpathlineto{\pgfqpoint{3.003594in}{2.201219in}}%
+\pgfpathlineto{\pgfqpoint{3.708276in}{2.137739in}}%
+\pgfpathlineto{\pgfqpoint{4.421593in}{2.073480in}}%
+\pgfpathlineto{\pgfqpoint{5.132586in}{2.009431in}}%
+\pgfusepath{stroke}%
+\end{pgfscope}%
+\begin{pgfscope}%
 \pgfsetrectcap%
 \pgfsetmiterjoin%
 \pgfsetlinewidth{0.803000pt}%
@@ -2821,6 +2859,18 @@
 \pgfpathmoveto{\pgfqpoint{0.721913in}{2.859073in}}%
 \pgfpathlineto{\pgfqpoint{5.240163in}{2.859073in}}%
 \pgfusepath{stroke}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.478431,0.478431,0.478431}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.224476in,y=1.796711in,left,base]{\color{textcolor}{\rmfamily\fontsize{12.000000}{14.400000}\selectfont\catcode`\^=\active\def^{\ifmmode\sp\else\^{}\fi}\catcode`\%=\active\def%{\%}$\mathcal{O}(\varepsilon^{-1})$}}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.478431,0.478431,0.478431}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=2.958483in,y=2.287209in,left,base]{\color{textcolor}{\rmfamily\fontsize{12.000000}{14.400000}\selectfont\catcode`\^=\active\def^{\ifmmode\sp\else\^{}\fi}\catcode`\%=\active\def%{\%}$\mathcal{O}(\varepsilon^{-2})$}}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
